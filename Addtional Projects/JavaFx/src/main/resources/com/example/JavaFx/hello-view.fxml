@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.text.Font?>
+
+<BarChart xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <xAxis>
+    <CategoryAxis label="NHL Stats" prefHeight="46.0" prefWidth="445.0" side="BOTTOM">
+         <categories>
+            <String fx:value="Tampa Bay" />
+            <String fx:value="Nashville" />
+            <String fx:value="Winnipeg" />
+            <String fx:value="Detroit" />
+            <String fx:value="Los Angeles" />
+            <String fx:value="Boston" />
+            <String fx:value="toronto" />
+         </categories></CategoryAxis>
+  </xAxis>
+  <yAxis>
+    <NumberAxis minorTickCount="10" minorTickLength="4.0" side="LEFT" upperBound="500.0">
+         <tickLabelFont>
+            <Font size="9.0" />
+         </tickLabelFont></NumberAxis>
+  </yAxis>
+</BarChart>
